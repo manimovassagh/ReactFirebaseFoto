@@ -19,6 +19,8 @@ import 'firebase/firebase-firestore';
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 
-  const fotoalbumstorage=firebase.storage();
-  const fotoalbumstore=firebase.firestore();
-  export{fotoalbumstorage,fotoalbumstore};
+  const projectStorage = firebase.storage();
+  const projectFirestore = firebase.firestore();
+  const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+
+  export { projectStorage, projectFirestore, timestamp };
