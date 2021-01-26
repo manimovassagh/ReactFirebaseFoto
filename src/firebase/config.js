@@ -18,3 +18,7 @@ import 'firebase/firebase-firestore';
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+  const fotoalbumstorage=firebase.storage();
+  const fotoalbumstore=firebase.firestore();
+  export{fotoalbumstorage,fotoalbumstore};
