@@ -1,4 +1,5 @@
 My reat project to learn deeper all tasks.
+it has still some issues but i am working on it
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
